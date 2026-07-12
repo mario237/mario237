@@ -1,3 +1,4 @@
+<!-- Mario Mamdouh — Senior Software Engineer -->
 <!-- ======================= HEADER ======================= -->
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:10d59a,100:6366f1&height=200&section=header&text=Mario%20Mamdouh&fontColor=ffffff&fontSize=46&fontAlignY=36&desc=Senior%20Software%20Engineer%20%C2%B7%20Backend%20%26%20Payment%20Microservices&descSize=18&descAlignY=58&animation=fadeIn" alt="Mario Mamdouh" />
