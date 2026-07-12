@@ -20,6 +20,8 @@
 <!-- ======================= ABOUT ======================= -->
 ## 👨‍💻 About Me
 
+<img align="right" width="290" src="https://raw.githubusercontent.com/mario237/mario237/main/assets/profile.png" alt="Mario Mamdouh" />
+
 Senior Software Engineer with **5+ years** architecting, building, and scaling high-performance backend systems, payment microservices, and full-stack web platforms. Expert in **PHP (Laravel, Yii2)** with a proven record of leading complex integrations — payment gateways, banking APIs, and accounting systems — and shipping cloud-native services on **GCP & AWS**.
 
 - 🔭 Currently **Senior Software Engineer @ Evolvice GmbH**, architecting the Ynmo payment platform
@@ -27,6 +29,8 @@ Senior Software Engineer with **5+ years** architecting, building, and scaling h
 - ☁️ I ship secure, multi-tenant, **bilingual (AR/EN)** products at scale across the Gulf & MENA
 - 🧭 I own delivery end-to-end — from architecture to production, mentoring, and engineering standards
 - 📫 Reach me at **mariomamdouh237@gmail.com** · 🌍 Based in **Cairo, Egypt** 🇪🇬
+
+<br clear="both" />
 
 <!-- ======================= WORK ======================= -->
 ## 🚀 Selected Work — all live in production
