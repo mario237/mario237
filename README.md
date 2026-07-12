@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1000&color=10D59A&center=true&vCenter=true&width=620&lines=5%2B+years+building+production+systems;PHP+%C2%B7+Laravel+%C2%B7+Yii2+%C2%B7+Node.js+%C2%B7+NestJS;Payments+%7C+Banking+APIs+%7C+Cloud-Native+Delivery" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1000&color=10D59A&center=true&vCenter=true&width=640&lines=Senior+Software+Engineer;Building+scalable+production+ecosystems;Full-Stack+%C2%B7+Cloud-Native+%C2%B7+End-to-End" alt="Typing SVG" />
 </p>
 
 <!-- ======================= SOCIAL ======================= -->
@@ -22,12 +22,12 @@
 
 <img align="right" width="290" src="https://raw.githubusercontent.com/mario237/mario237/main/assets/profile.png" alt="Mario Mamdouh" />
 
-Senior Software Engineer with **5+ years** architecting, building, and scaling high-performance backend systems, payment microservices, and full-stack web platforms. Expert in **PHP (Laravel, Yii2)** with a proven record of leading complex integrations — payment gateways, banking APIs, and accounting systems — and shipping cloud-native services on **GCP & AWS**.
+Senior Software Engineer with **5+ years** designing, building, and scaling **production-grade software ecosystems end-to-end** — from intuitive front-ends to resilient backends, data layers, and cloud infrastructure. I turn complex requirements into reliable, maintainable systems that ship and scale.
 
-- 🔭 Currently **Senior Software Engineer @ Evolvice GmbH**, architecting the Ynmo payment platform
-- 💳 I specialize in **payments & banking integrations** — MyFatoorah, Tabby BNPL, PayPal, STC Bank (OAuth2/mTLS)
-- ☁️ I ship secure, multi-tenant, **bilingual (AR/EN)** products at scale across the Gulf & MENA
-- 🧭 I own delivery end-to-end — from architecture to production, mentoring, and engineering standards
+- 🔭 Currently **Senior Software Engineer @ Evolvice GmbH**, building scalable multi-tenant products
+- 🧱 I architect **complete systems** — APIs & microservices, front-ends, databases, and cloud infra
+- 💳 Proven on complex, high-stakes integrations — **payments, banking & accounting APIs** (MyFatoorah, Tabby, STC Bank)
+- ☁️ **Cloud-native delivery** — GCP/AWS, Docker & Kubernetes, CI/CD — secure & bilingual (AR/EN), at scale
 - 📫 Reach me at **mariomamdouh237@gmail.com** · 🌍 Based in **Cairo, Egypt** 🇪🇬
 
 <br clear="both" />
