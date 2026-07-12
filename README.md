@@ -1,7 +1,7 @@
 <!-- Mario Mamdouh — Senior Software Engineer -->
 <!-- ======================= HEADER ======================= -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:10d59a,100:6366f1&height=200&section=header&text=Mario%20Mamdouh&fontColor=ffffff&fontSize=46&fontAlignY=36&desc=Senior%20Software%20Engineer%20%C2%B7%20Backend%20%26%20Payment%20Microservices&descSize=18&descAlignY=58&animation=fadeIn" alt="Mario Mamdouh" />
+  <img src="https://raw.githubusercontent.com/mario237/mario237/main/assets/header.png" alt="Mario Mamdouh — Senior Software Engineer" width="100%" />
 </p>
 
 <p align="center">
@@ -122,6 +122,4 @@ Senior Software Engineer with **5+ years** architecting, building, and scaling h
   <a href="https://wa.me/201063364369"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp" /></a>
 </p>
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:6366f1,100:10d59a&height=120&section=footer" alt="footer" />
-</p>
+<p align="center"><i>⚡ Always open to interesting problems in backend, payments & scalable systems.</i></p>
