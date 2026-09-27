@@ -181,10 +181,6 @@ One payment service in front of every app: card payments, BNPL and bank payroll 
   <img src="https://streak-stats.demolab.com?user=mario237&hide_border=true&background=0d1117&stroke=1e293b&ring=10d59a&fire=6366f1&currStreakNum=f4f7fb&currStreakLabel=10d59a&sideNums=f4f7fb&sideLabels=9aa8bd&dates=64748b&border_radius=14" alt="GitHub streak" width="80%" />
 </p>
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=mario237&bg_color=0d1117&color=f4f7fb&line=10d59a&point=6366f1&area=true&area_color=10d59a&hide_border=true&radius=14&custom_title=Contribution%20Activity" alt="Contribution activity graph" width="100%" />
-</p>
-
 <img src="https://raw.githubusercontent.com/mario237/mario237/main/assets/footer.svg" width="100%" />
 
 <p align="center">
