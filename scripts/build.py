@@ -424,11 +424,21 @@ PROJECTS = [
 NOT_LIVE = {"ynmopay"}  # internal service, no public page
 
 
-def projects():
+OSS = [
+    ("oss-egypt-validators", "🇪🇬", "egypt-validators", "PHP package · MIT · 45 tests", "#7F75E8",
+     "Validate and parse Egyptian national IDs, mobile numbers and governorates, with ready-made Laravel validation rules.",
+     ["PHP 8.2+", "Laravel 11/12", "Arabic digits"]),
+    ("oss-case-studies", "📚", "predev. case studies", "How we plan, design & build", "#F59E0B",
+     "Seven products from brief to launch: HR SaaS, a delivery super-app, a real-estate CRM, an Arabic reading platform and more.",
+     ["SaaS", "Flutter", "Laravel", "RTL"]),
+]
+
+
+def projects(items=None, badge="LIVE"):
     W, H = 440, 230
     PAD, EDGE = 10, 9
     CW, CH = W, H + PAD + EDGE + 16
-    for n, (slug, icon, name, kind, col, desc, tags) in enumerate(PROJECTS):
+    for n, (slug, icon, name, kind, col, desc, tags) in enumerate(items or PROJECTS):
         dl_ = -(n * .55)
         dl = "".join(f'<text x="26" y="{112 + i * 22}">{e(l)}</text>' for i, l in enumerate(textwrap.wrap(desc, 56)[:4]))
         x, tg = 26, ""
@@ -481,8 +491,8 @@ def projects():
   </g></g>
   <text x="88" y="46" font-family="{SANS}" font-size="19" font-weight="700" fill="#f4f7fb">{e(name)}</text>
   <text x="88" y="67" font-family="{MONO}" font-size="11.5" fill="{col}" letter-spacing=".4">{e(kind.upper())}</text>
-  {"" if slug in NOT_LIVE else f'''<g transform="translate({W - 74} 26)"><rect width="52" height="20" rx="10" fill="#10D59A" fill-opacity=".12" stroke="#10D59A" stroke-opacity=".5"/>
-    <circle class="live" cx="12" cy="10" r="3.5" fill="#10D59A"/><text x="33" y="14" text-anchor="middle" font-family="{MONO}" font-size="10" font-weight="700" fill="#10D59A">LIVE</text></g>'''}
+  {"" if slug in NOT_LIVE else f'''<g transform="translate({W - 22 - (len(badge) * 7 + 30)} 26)"><rect width="{len(badge) * 7 + 30}" height="20" rx="10" fill="#10D59A" fill-opacity=".12" stroke="#10D59A" stroke-opacity=".5"/>
+    <circle class="live" cx="12" cy="10" r="3.5" fill="#10D59A"/><text x="{(len(badge) * 7 + 30) / 2 + 6}" y="14" text-anchor="middle" font-family="{MONO}" font-size="10" font-weight="700" fill="#10D59A">{badge}</text></g>'''}
   <g font-family="{SANS}" font-size="14" fill="#a9b3c9">{dl}</g>
   <g font-family="{SANS}" font-size="11.5" font-weight="600" fill="#e5e7eb">{tg}</g>
 </g></g>
@@ -624,6 +634,6 @@ def footer():
 
 
 if __name__ == "__main__":
-    for f in (header, predev, impact, about, services, career, architecture, projects, tech, divider, footer):
+    for f in (header, predev, impact, about, services, career, architecture, projects, lambda: projects(OSS, "OPEN SOURCE"), tech, divider, footer):
         f()
     print("assets built:", sorted(p.name for p in A.rglob("*.svg")))

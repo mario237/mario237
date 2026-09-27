@@ -154,6 +154,15 @@ One payment service in front of every app: card payments, BNPL and bank payroll 
 
 <img src="https://raw.githubusercontent.com/mario237/mario237/main/assets/divider.svg" width="100%" />
 
+## 📦 Open Source
+
+<p align="center">
+  <a href="https://github.com/predev-solutions/egypt-validators"><img src="https://raw.githubusercontent.com/mario237/mario237/main/assets/projects/oss-egypt-validators.svg" width="49%" alt="egypt-validators: validate Egyptian national IDs, mobile numbers and governorates in PHP and Laravel" /></a>
+  <a href="https://github.com/predev-solutions/case-studies"><img src="https://raw.githubusercontent.com/mario237/mario237/main/assets/projects/oss-case-studies.svg" width="49%" alt="predev. case studies" /></a>
+</p>
+
+<img src="https://raw.githubusercontent.com/mario237/mario237/main/assets/divider.svg" width="100%" />
+
 ## 🛠️ Tech Stack
 
 <p align="center">
