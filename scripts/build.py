@@ -109,7 +109,7 @@ def header():
     tl_css = "".join(
         f".t{i} {{ animation: tl{i} {cyc}s steps(1) infinite; }} @keyframes tl{i} {{ 0% {{ opacity: 0; }} {int((i + 1) * 9)}% {{ opacity: 1; }} 94% {{ opacity: 1; }} 100% {{ opacity: 0; }} }}\n"
         for i in range(n))
-    chips = [("🏢", "predev. Solutions", 200, PV), ("💼", "Senior SWE @ Evolvice", 222, "#fff"), ("📍", "Cairo, Egypt", 146, "#fff")]
+    chips = [("🏢", "predev. Solutions", 200, PV), ("⚡", "6+ yrs in production", 206, "#fff"), ("📍", "Cairo, Egypt", 146, "#fff")]
     cx, ch = 72, ""
     for emo, label, w, col in chips:
         hl = col != "#fff"
@@ -134,7 +134,7 @@ def header():
   <text class="up" style="animation-delay:.15s" x="72" y="104" font-family="{MONO}" font-size="18" fill="{G}">// hello world, I'm</text>
   <text class="up" style="animation-delay:.4s" x="68" y="178" font-family="{SANS}" font-size="68" font-weight="800" fill="#f4f7fb" letter-spacing="-1.5">Mario Mamdouh</text>
   <rect class="bar" x="72" y="198" width="200" height="6" rx="3" fill="url(#ac)"/>
-  <text class="up" style="animation-delay:.7s" x="72" y="250" font-family="{SANS}" font-size="27" font-weight="600" fill="#d7dcf0"><tspan fill="#A9A3FF">Founder &amp; CEO</tspan> <tspan fill="#6b7280">·</tspan> Senior Software Engineer</text>
+  <text class="up" style="animation-delay:.7s" x="72" y="250" font-family="{SANS}" font-size="27" font-weight="600" fill="#d7dcf0"><tspan fill="#A9A3FF">Founder &amp; CEO</tspan> <tspan fill="#6b7280">·</tspan> Software Engineer</text>
   <g class="up" style="animation-delay:1s" font-family="{SANS}" font-size="15.5">{ch}</g>
 """
     svg = f"""<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}">
@@ -200,10 +200,9 @@ def about():
     rows = [
         [(K, "final class "), (Y, "Mario "), (K, "extends "), (Y, "Engineer"), (T, " {")],
         [(T, "")],
-        [(K, "    public "), (P, "$founder"), (T, "  = "), (S, "'predev. Solutions'"), (T, "; "), (C, "// CEO")],
-        [(K, "    public "), (P, "$role"), (T, "     = "), (S, "'Senior Software Engineer'"), (T, ";")],
-        [(K, "    public "), (P, "$company"), (T, "  = "), (S, "'Evolvice GmbH'"), (T, ";")],
-        [(K, "    public "), (P, "$previous"), (T, " = "), (S, "'Tech Lead @ REFILEX'"), (T, ";")],
+        [(K, "    public "), (P, "$role"), (T, "     = "), (S, "'Founder & CEO'"), (T, ";")],
+        [(K, "    public "), (P, "$company"), (T, "  = "), (S, "'predev. Solutions'"), (T, ";")],
+        [(K, "    public "), (P, "$previous"), (T, " = "), (S, "['Senior SWE', 'Tech Lead']"), (T, ";")],
         [(K, "    public "), (P, "$years"), (T, "    = "), (N, "6"), (T, "; "), (C, "// and counting")],
         [(T, "")],
         [(K, "    public function "), (F, "focus"), (T, "(): "), (Y, "array"), (T, " {")],
@@ -268,20 +267,22 @@ def services():
 # ---------------- career timeline ----------------
 CAREER = [
     ("2020", "OTG", "Backend Developer", "Cairo", "#F43F5E",
-     ["Secure, scalable APIs", "DB replication", "Unit → E2E tests"]),
+     ["Scalable APIs", "DB replication", "Unit → E2E tests"]),
     ("2022", "Tod-z", "Software Engineer", "Estonia · remote", "#F59E0B",
-     ["Freelance marketplace", "Full-stack Laravel", "Deployed on AWS"]),
+     ["Marketplace", "Full-stack Laravel", "AWS deploys"]),
     ("2022", "Kick Start Interactive", "Software Engineer", "Contract · remote", "#22D3EE",
-     ["Backend ⇄ web/mobile", "Cross-team Agile"]),
+     ["Web ⇄ mobile sync", "Cross-team Agile"]),
     ("2023", "REFILEX", "Tech Lead", "Cairo", IN,
-     ["Led the eng. team", "Owned architecture", "Reviews & mentoring"]),
+     ["Led the team", "Architecture", "Mentoring"]),
     ("2025", "Evolvice GmbH", "Senior SWE", "Germany · remote", G,
-     ["Payment microservice", "Bank APIs · mTLS", "Swarm on GCP"]),
+     ["Payments service", "Bank APIs · mTLS", "Swarm on GCP"]),
+    ("2026", "predev.", "Founder & CEO", "Cairo · 14 people", PV,
+     ["Founded & run it", "8+ products live", "Team of 14"]),
 ]
 
 
 def career():
-    W, x0, colw, top, cardh = 920, 20, 176, 104, 164
+    W, x0, colw, top, cardh = 920, 16, 148, 104, 164
     H = top + cardh + 34
     ax = 44
     out = [f'<line x1="{ax}" x2="{W - ax}" y1="56" y2="56" stroke="#fff" stroke-opacity=".12" stroke-width="3" stroke-linecap="round"/>',
@@ -296,7 +297,7 @@ def career():
 <text x="{cx}" y="30" text-anchor="middle" font-family="{MONO}" font-size="15" font-weight="700" fill="{col}">{year}{" → NOW" if now else ""}</text>
 <text x="{cx}" y="90" text-anchor="middle" font-family="{SANS}" font-size="12" fill="#8b95ab">{e(where)}</text>""")
         x, w, d = x0 + m * colw + 6, colw - 12, -(m * .4)
-        name = co if len(co) < 17 else co.replace(" Interactive", "")
+        name = co if len(co) < 14 else co.replace(" Interactive", "").replace(" GmbH", "")
         bl = "".join(f'<text x="14" y="{86 + k * 22}"><tspan fill="{col}">▸ </tspan>{e(p)}</text>'
                      for k, p in enumerate(pts))
         out.append(f"""<g transform="translate({x} {top})"><g class="fl" style="animation-delay:{d:.2f}s">
@@ -304,8 +305,8 @@ def career():
   <rect width="{w}" height="4" rx="2" fill="{col}"/>
   <rect width="{w}" height="{cardh}" rx="12" fill="url(#gloss)" opacity=".5"/>
   <text x="14" y="32" font-family="{SANS}" font-size="15.5" font-weight="700" fill="#f4f7fb">{e(name)}</text>
-  <text x="14" y="54" font-family="{MONO}" font-size="11" font-weight="700" fill="{col}">{e(role.upper())}</text>
-  <g font-family="{SANS}" font-size="11.5" fill="#a9b3c9">{bl}</g>
+  <text x="14" y="54" font-family="{MONO}" font-size="10.5" font-weight="700" fill="{col}">{e(role.upper())}</text>
+  <g font-family="{SANS}" font-size="11" fill="#a9b3c9">{bl}</g>
 </g></g>""")
     write("career.svg", frame(W, H, "".join(out), """
   .run { stroke-dasharray: 140 2000; animation: run 5s linear infinite; }

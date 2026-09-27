@@ -31,86 +31,102 @@
   <rect width="920" height="302" fill="url(#dots)"/>
   <circle class="glow" cx="860" cy="50" r="280" fill="url(#o2)"/>
   <circle class="glow" style="animation-delay:-3s" cx="70" cy="272" r="240" fill="url(#o1)"/>
-  <line x1="44" x2="876" y1="56" y2="56" stroke="#fff" stroke-opacity=".12" stroke-width="3" stroke-linecap="round"/><line class="run" x1="44" x2="876" y1="56" y2="56" stroke="url(#run)" stroke-width="3" stroke-linecap="round"/><g transform="translate(108.0 56)">
+  <line x1="44" x2="876" y1="56" y2="56" stroke="#fff" stroke-opacity=".12" stroke-width="3" stroke-linecap="round"/><line class="run" x1="44" x2="876" y1="56" y2="56" stroke="url(#run)" stroke-width="3" stroke-linecap="round"/><g transform="translate(90.0 56)">
   <circle class="pl" style="animation-delay:0.0s" r="16" fill="#F43F5E" fill-opacity=".25"/>
   <circle r="10" fill="#91081f"/><circle r="8" cy="-1.5" fill="#F43F5E"/>
 </g>
-<text x="108.0" y="30" text-anchor="middle" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="15" font-weight="700" fill="#F43F5E">2020</text>
-<text x="108.0" y="90" text-anchor="middle" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="12" fill="#8b95ab">Cairo</text><g transform="translate(26 104)"><g class="fl" style="animation-delay:-0.00s">
-  <rect y="6" width="164" height="164" rx="12" fill="#650516"/>
-    <rect y="3.0" width="164" height="164" rx="12" fill="#91081f"/>
-    <rect width="164" height="164" rx="12" fill="url(#face)"/>
-    <rect width="164" height="164" rx="12" fill="#F43F5E" fill-opacity=".06"/>
-    <rect x=".5" y=".5" width="163" height="163" rx="11.5" fill="none" stroke="#F43F5E" stroke-opacity=".38"/>
-  <rect width="164" height="4" rx="2" fill="#F43F5E"/>
-  <rect width="164" height="164" rx="12" fill="url(#gloss)" opacity=".5"/>
+<text x="90.0" y="30" text-anchor="middle" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="15" font-weight="700" fill="#F43F5E">2020</text>
+<text x="90.0" y="90" text-anchor="middle" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="12" fill="#8b95ab">Cairo</text><g transform="translate(22 104)"><g class="fl" style="animation-delay:-0.00s">
+  <rect y="6" width="136" height="164" rx="12" fill="#650516"/>
+    <rect y="3.0" width="136" height="164" rx="12" fill="#91081f"/>
+    <rect width="136" height="164" rx="12" fill="url(#face)"/>
+    <rect width="136" height="164" rx="12" fill="#F43F5E" fill-opacity=".06"/>
+    <rect x=".5" y=".5" width="135" height="163" rx="11.5" fill="none" stroke="#F43F5E" stroke-opacity=".38"/>
+  <rect width="136" height="4" rx="2" fill="#F43F5E"/>
+  <rect width="136" height="164" rx="12" fill="url(#gloss)" opacity=".5"/>
   <text x="14" y="32" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="15.5" font-weight="700" fill="#f4f7fb">OTG</text>
-  <text x="14" y="54" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="11" font-weight="700" fill="#F43F5E">BACKEND DEVELOPER</text>
-  <g font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="11.5" fill="#a9b3c9"><text x="14" y="86"><tspan fill="#F43F5E">▸ </tspan>Secure, scalable APIs</text><text x="14" y="108"><tspan fill="#F43F5E">▸ </tspan>DB replication</text><text x="14" y="130"><tspan fill="#F43F5E">▸ </tspan>Unit → E2E tests</text></g>
-</g></g><g transform="translate(284.0 56)">
+  <text x="14" y="54" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="10.5" font-weight="700" fill="#F43F5E">BACKEND DEVELOPER</text>
+  <g font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="11" fill="#a9b3c9"><text x="14" y="86"><tspan fill="#F43F5E">▸ </tspan>Scalable APIs</text><text x="14" y="108"><tspan fill="#F43F5E">▸ </tspan>DB replication</text><text x="14" y="130"><tspan fill="#F43F5E">▸ </tspan>Unit → E2E tests</text></g>
+</g></g><g transform="translate(238.0 56)">
   <circle class="pl" style="animation-delay:0.5s" r="16" fill="#F59E0B" fill-opacity=".25"/>
   <circle r="10" fill="#7a4f05"/><circle r="8" cy="-1.5" fill="#F59E0B"/>
 </g>
-<text x="284.0" y="30" text-anchor="middle" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="15" font-weight="700" fill="#F59E0B">2022</text>
-<text x="284.0" y="90" text-anchor="middle" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="12" fill="#8b95ab">Estonia · remote</text><g transform="translate(202 104)"><g class="fl" style="animation-delay:-0.40s">
-  <rect y="6" width="164" height="164" rx="12" fill="#563703"/>
-    <rect y="3.0" width="164" height="164" rx="12" fill="#7a4f05"/>
-    <rect width="164" height="164" rx="12" fill="url(#face)"/>
-    <rect width="164" height="164" rx="12" fill="#F59E0B" fill-opacity=".06"/>
-    <rect x=".5" y=".5" width="163" height="163" rx="11.5" fill="none" stroke="#F59E0B" stroke-opacity=".38"/>
-  <rect width="164" height="4" rx="2" fill="#F59E0B"/>
-  <rect width="164" height="164" rx="12" fill="url(#gloss)" opacity=".5"/>
+<text x="238.0" y="30" text-anchor="middle" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="15" font-weight="700" fill="#F59E0B">2022</text>
+<text x="238.0" y="90" text-anchor="middle" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="12" fill="#8b95ab">Estonia · remote</text><g transform="translate(170 104)"><g class="fl" style="animation-delay:-0.40s">
+  <rect y="6" width="136" height="164" rx="12" fill="#563703"/>
+    <rect y="3.0" width="136" height="164" rx="12" fill="#7a4f05"/>
+    <rect width="136" height="164" rx="12" fill="url(#face)"/>
+    <rect width="136" height="164" rx="12" fill="#F59E0B" fill-opacity=".06"/>
+    <rect x=".5" y=".5" width="135" height="163" rx="11.5" fill="none" stroke="#F59E0B" stroke-opacity=".38"/>
+  <rect width="136" height="4" rx="2" fill="#F59E0B"/>
+  <rect width="136" height="164" rx="12" fill="url(#gloss)" opacity=".5"/>
   <text x="14" y="32" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="15.5" font-weight="700" fill="#f4f7fb">Tod-z</text>
-  <text x="14" y="54" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="11" font-weight="700" fill="#F59E0B">SOFTWARE ENGINEER</text>
-  <g font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="11.5" fill="#a9b3c9"><text x="14" y="86"><tspan fill="#F59E0B">▸ </tspan>Freelance marketplace</text><text x="14" y="108"><tspan fill="#F59E0B">▸ </tspan>Full-stack Laravel</text><text x="14" y="130"><tspan fill="#F59E0B">▸ </tspan>Deployed on AWS</text></g>
-</g></g><g transform="translate(460.0 56)">
+  <text x="14" y="54" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="10.5" font-weight="700" fill="#F59E0B">SOFTWARE ENGINEER</text>
+  <g font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="11" fill="#a9b3c9"><text x="14" y="86"><tspan fill="#F59E0B">▸ </tspan>Marketplace</text><text x="14" y="108"><tspan fill="#F59E0B">▸ </tspan>Full-stack Laravel</text><text x="14" y="130"><tspan fill="#F59E0B">▸ </tspan>AWS deploys</text></g>
+</g></g><g transform="translate(386.0 56)">
   <circle class="pl" style="animation-delay:1.0s" r="16" fill="#22D3EE" fill-opacity=".25"/>
   <circle r="10" fill="#096e7e"/><circle r="8" cy="-1.5" fill="#22D3EE"/>
 </g>
-<text x="460.0" y="30" text-anchor="middle" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="15" font-weight="700" fill="#22D3EE">2022</text>
-<text x="460.0" y="90" text-anchor="middle" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="12" fill="#8b95ab">Contract · remote</text><g transform="translate(378 104)"><g class="fl" style="animation-delay:-0.80s">
-  <rect y="6" width="164" height="164" rx="12" fill="#064d58"/>
-    <rect y="3.0" width="164" height="164" rx="12" fill="#096e7e"/>
-    <rect width="164" height="164" rx="12" fill="url(#face)"/>
-    <rect width="164" height="164" rx="12" fill="#22D3EE" fill-opacity=".06"/>
-    <rect x=".5" y=".5" width="163" height="163" rx="11.5" fill="none" stroke="#22D3EE" stroke-opacity=".38"/>
-  <rect width="164" height="4" rx="2" fill="#22D3EE"/>
-  <rect width="164" height="164" rx="12" fill="url(#gloss)" opacity=".5"/>
+<text x="386.0" y="30" text-anchor="middle" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="15" font-weight="700" fill="#22D3EE">2022</text>
+<text x="386.0" y="90" text-anchor="middle" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="12" fill="#8b95ab">Contract · remote</text><g transform="translate(318 104)"><g class="fl" style="animation-delay:-0.80s">
+  <rect y="6" width="136" height="164" rx="12" fill="#064d58"/>
+    <rect y="3.0" width="136" height="164" rx="12" fill="#096e7e"/>
+    <rect width="136" height="164" rx="12" fill="url(#face)"/>
+    <rect width="136" height="164" rx="12" fill="#22D3EE" fill-opacity=".06"/>
+    <rect x=".5" y=".5" width="135" height="163" rx="11.5" fill="none" stroke="#22D3EE" stroke-opacity=".38"/>
+  <rect width="136" height="4" rx="2" fill="#22D3EE"/>
+  <rect width="136" height="164" rx="12" fill="url(#gloss)" opacity=".5"/>
   <text x="14" y="32" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="15.5" font-weight="700" fill="#f4f7fb">Kick Start</text>
-  <text x="14" y="54" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="11" font-weight="700" fill="#22D3EE">SOFTWARE ENGINEER</text>
-  <g font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="11.5" fill="#a9b3c9"><text x="14" y="86"><tspan fill="#22D3EE">▸ </tspan>Backend ⇄ web/mobile</text><text x="14" y="108"><tspan fill="#22D3EE">▸ </tspan>Cross-team Agile</text></g>
-</g></g><g transform="translate(636.0 56)">
+  <text x="14" y="54" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="10.5" font-weight="700" fill="#22D3EE">SOFTWARE ENGINEER</text>
+  <g font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="11" fill="#a9b3c9"><text x="14" y="86"><tspan fill="#22D3EE">▸ </tspan>Web ⇄ mobile sync</text><text x="14" y="108"><tspan fill="#22D3EE">▸ </tspan>Cross-team Agile</text></g>
+</g></g><g transform="translate(534.0 56)">
   <circle class="pl" style="animation-delay:1.5s" r="16" fill="#6366F1" fill-opacity=".25"/>
   <circle r="10" fill="#0e109b"/><circle r="8" cy="-1.5" fill="#6366F1"/>
 </g>
-<text x="636.0" y="30" text-anchor="middle" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="15" font-weight="700" fill="#6366F1">2023</text>
-<text x="636.0" y="90" text-anchor="middle" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="12" fill="#8b95ab">Cairo</text><g transform="translate(554 104)"><g class="fl" style="animation-delay:-1.20s">
-  <rect y="6" width="164" height="164" rx="12" fill="#090b6d"/>
-    <rect y="3.0" width="164" height="164" rx="12" fill="#0e109b"/>
-    <rect width="164" height="164" rx="12" fill="url(#face)"/>
-    <rect width="164" height="164" rx="12" fill="#6366F1" fill-opacity=".06"/>
-    <rect x=".5" y=".5" width="163" height="163" rx="11.5" fill="none" stroke="#6366F1" stroke-opacity=".38"/>
-  <rect width="164" height="4" rx="2" fill="#6366F1"/>
-  <rect width="164" height="164" rx="12" fill="url(#gloss)" opacity=".5"/>
+<text x="534.0" y="30" text-anchor="middle" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="15" font-weight="700" fill="#6366F1">2023</text>
+<text x="534.0" y="90" text-anchor="middle" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="12" fill="#8b95ab">Cairo</text><g transform="translate(466 104)"><g class="fl" style="animation-delay:-1.20s">
+  <rect y="6" width="136" height="164" rx="12" fill="#090b6d"/>
+    <rect y="3.0" width="136" height="164" rx="12" fill="#0e109b"/>
+    <rect width="136" height="164" rx="12" fill="url(#face)"/>
+    <rect width="136" height="164" rx="12" fill="#6366F1" fill-opacity=".06"/>
+    <rect x=".5" y=".5" width="135" height="163" rx="11.5" fill="none" stroke="#6366F1" stroke-opacity=".38"/>
+  <rect width="136" height="4" rx="2" fill="#6366F1"/>
+  <rect width="136" height="164" rx="12" fill="url(#gloss)" opacity=".5"/>
   <text x="14" y="32" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="15.5" font-weight="700" fill="#f4f7fb">REFILEX</text>
-  <text x="14" y="54" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="11" font-weight="700" fill="#6366F1">TECH LEAD</text>
-  <g font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="11.5" fill="#a9b3c9"><text x="14" y="86"><tspan fill="#6366F1">▸ </tspan>Led the eng. team</text><text x="14" y="108"><tspan fill="#6366F1">▸ </tspan>Owned architecture</text><text x="14" y="130"><tspan fill="#6366F1">▸ </tspan>Reviews &amp; mentoring</text></g>
-</g></g><g transform="translate(812.0 56)">
+  <text x="14" y="54" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="10.5" font-weight="700" fill="#6366F1">TECH LEAD</text>
+  <g font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="11" fill="#a9b3c9"><text x="14" y="86"><tspan fill="#6366F1">▸ </tspan>Led the team</text><text x="14" y="108"><tspan fill="#6366F1">▸ </tspan>Architecture</text><text x="14" y="130"><tspan fill="#6366F1">▸ </tspan>Mentoring</text></g>
+</g></g><g transform="translate(682.0 56)">
   <circle class="pl" style="animation-delay:2.0s" r="16" fill="#10D59A" fill-opacity=".25"/>
   <circle r="10" fill="#086a4d"/><circle r="8" cy="-1.5" fill="#10D59A"/>
 </g>
-<text x="812.0" y="30" text-anchor="middle" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="15" font-weight="700" fill="#10D59A">2025 → NOW</text>
-<text x="812.0" y="90" text-anchor="middle" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="12" fill="#8b95ab">Germany · remote</text><g transform="translate(730 104)"><g class="fl" style="animation-delay:-1.60s">
-  <rect y="6" width="164" height="164" rx="12" fill="#054a35"/>
-    <rect y="3.0" width="164" height="164" rx="12" fill="#086a4d"/>
-    <rect width="164" height="164" rx="12" fill="url(#face)"/>
-    <rect width="164" height="164" rx="12" fill="#10D59A" fill-opacity=".06"/>
-    <rect x=".5" y=".5" width="163" height="163" rx="11.5" fill="none" stroke="#10D59A" stroke-opacity=".38"/>
-  <rect width="164" height="4" rx="2" fill="#10D59A"/>
-  <rect width="164" height="164" rx="12" fill="url(#gloss)" opacity=".5"/>
+<text x="682.0" y="30" text-anchor="middle" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="15" font-weight="700" fill="#10D59A">2025</text>
+<text x="682.0" y="90" text-anchor="middle" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="12" fill="#8b95ab">Germany · remote</text><g transform="translate(614 104)"><g class="fl" style="animation-delay:-1.60s">
+  <rect y="6" width="136" height="164" rx="12" fill="#054a35"/>
+    <rect y="3.0" width="136" height="164" rx="12" fill="#086a4d"/>
+    <rect width="136" height="164" rx="12" fill="url(#face)"/>
+    <rect width="136" height="164" rx="12" fill="#10D59A" fill-opacity=".06"/>
+    <rect x=".5" y=".5" width="135" height="163" rx="11.5" fill="none" stroke="#10D59A" stroke-opacity=".38"/>
+  <rect width="136" height="4" rx="2" fill="#10D59A"/>
+  <rect width="136" height="164" rx="12" fill="url(#gloss)" opacity=".5"/>
   <text x="14" y="32" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="15.5" font-weight="700" fill="#f4f7fb">Evolvice GmbH</text>
-  <text x="14" y="54" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="11" font-weight="700" fill="#10D59A">SENIOR SWE</text>
-  <g font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="11.5" fill="#a9b3c9"><text x="14" y="86"><tspan fill="#10D59A">▸ </tspan>Payment microservice</text><text x="14" y="108"><tspan fill="#10D59A">▸ </tspan>Bank APIs · mTLS</text><text x="14" y="130"><tspan fill="#10D59A">▸ </tspan>Swarm on GCP</text></g>
+  <text x="14" y="54" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="10.5" font-weight="700" fill="#10D59A">SENIOR SWE</text>
+  <g font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="11" fill="#a9b3c9"><text x="14" y="86"><tspan fill="#10D59A">▸ </tspan>Payments service</text><text x="14" y="108"><tspan fill="#10D59A">▸ </tspan>Bank APIs · mTLS</text><text x="14" y="130"><tspan fill="#10D59A">▸ </tspan>Swarm on GCP</text></g>
+</g></g><g transform="translate(830.0 56)">
+  <circle class="pl" style="animation-delay:2.5s" r="16" fill="#7F75E8" fill-opacity=".25"/>
+  <circle r="10" fill="#231895"/><circle r="8" cy="-1.5" fill="#7F75E8"/>
+</g>
+<text x="830.0" y="30" text-anchor="middle" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="15" font-weight="700" fill="#7F75E8">2026 → NOW</text>
+<text x="830.0" y="90" text-anchor="middle" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="12" fill="#8b95ab">Cairo · 14 people</text><g transform="translate(762 104)"><g class="fl" style="animation-delay:-2.00s">
+  <rect y="6" width="136" height="164" rx="12" fill="#191168"/>
+    <rect y="3.0" width="136" height="164" rx="12" fill="#231895"/>
+    <rect width="136" height="164" rx="12" fill="url(#face)"/>
+    <rect width="136" height="164" rx="12" fill="#7F75E8" fill-opacity=".06"/>
+    <rect x=".5" y=".5" width="135" height="163" rx="11.5" fill="none" stroke="#7F75E8" stroke-opacity=".38"/>
+  <rect width="136" height="4" rx="2" fill="#7F75E8"/>
+  <rect width="136" height="164" rx="12" fill="url(#gloss)" opacity=".5"/>
+  <text x="14" y="32" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="15.5" font-weight="700" fill="#f4f7fb">predev.</text>
+  <text x="14" y="54" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="10.5" font-weight="700" fill="#7F75E8">FOUNDER &amp; CEO</text>
+  <g font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="11" fill="#a9b3c9"><text x="14" y="86"><tspan fill="#7F75E8">▸ </tspan>Founded &amp; run it</text><text x="14" y="108"><tspan fill="#7F75E8">▸ </tspan>8+ products live</text><text x="14" y="130"><tspan fill="#7F75E8">▸ </tspan>Team of 14</text></g>
 </g></g>
 </g>
 <rect x=".5" y=".5" width="919" height="301" rx="19.5" fill="none" stroke="#fff" stroke-opacity=".1"/>

@@ -3,7 +3,7 @@
 <p align="right"><a href="README.md">🇬🇧 English</a> · <b>🇪🇬 العربية</b></p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/mario237/mario237/main/assets/header.svg" alt="Mario Mamdouh, Founder and CEO of predev. Solutions, Senior Software Engineer" width="100%" />
+  <img src="https://raw.githubusercontent.com/mario237/mario237/main/assets/header.svg" alt="Mario Mamdouh, Founder and CEO of predev. Solutions" width="100%" />
 </p>
 
 <p align="center">
@@ -13,12 +13,12 @@
 <p align="center">
   <a href="https://mariomamdouh.com"><img src="https://img.shields.io/badge/Portfolio-10D59A?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
   <a href="https://predevsolutions.com"><img src="https://img.shields.io/badge/predev._Solutions-7F75E8?style=for-the-badge&logo=googlechrome&logoColor=white" alt="predev. Solutions" /></a>
-  <a href="https://www.linkedin.com/in/mario-mamdouh-6872921b4/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://www.linkedin.com/in/mariomamdouh1/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="mailto:mariomamdouh237@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
   <a href="https://wa.me/201063364369"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp" /></a>
 </p>
 
-<p align="center" dir="rtl">🏢 <b>المؤسس والرئيس التنفيذي</b> لـ <a href="https://predevsolutions.com"><b>predev. Solutions</b></a> · 💼 <b>مهندس برمجيات أول</b> في Evolvice GmbH</p>
+<p align="center" dir="rtl">🏢 <b>المؤسس والرئيس التنفيذي</b> لـ <a href="https://predevsolutions.com"><b>predev. Solutions</b></a>، شركة برمجيات في القاهرة تبني التطبيقات والمنصات والهويات التجارية</p>
 
 <img src="https://raw.githubusercontent.com/mario237/mario237/main/assets/divider.svg" width="100%" />
 
@@ -28,12 +28,12 @@
 <tr>
 <td width="62%" valign="top" dir="rtl">
 
-**المؤسس والرئيس التنفيذي لـ [predev. Solutions](https://predevsolutions.com)**، ومهندس برمجيات أول و**Tech Lead سابق** بخبرة **أكثر من 6 سنوات** في تصميم وبناء وتوسيع أنظمة تعمل في بيئة الإنتاج، من قاعدة البيانات والـ API إلى الشاشات التي يستخدمها الناس والسحابة التي تعمل عليها.
+**المؤسس والرئيس التنفيذي لـ [predev. Solutions](https://predevsolutions.com)**. وقبلها مهندس برمجيات أول و**Tech Lead** بخبرة **أكثر من 6 سنوات** في تصميم وبناء وتوسيع أنظمة تعمل في بيئة الإنتاج، من قاعدة البيانات والـ API إلى الشاشات التي يستخدمها الناس والسحابة التي تعمل عليها.
 
 أقوى مجالاتي هي الأنظمة التي لا تحتمل الخطأ: **تكاملات الدفع والبنوك والمحاسبة**، ومنصات SaaS متعددة المستأجرين، وخدمات تبقى صحيحة مع إعادة المحاولات والتزامن وضغط الاستخدام.
 
 - 🏢 **المؤسس والرئيس التنفيذي لـ predev. Solutions**: شركة برمجيات في القاهرة بفريق من 14 متخصصًا وأكثر من 8 منتجات تعمل
-- 🔭 **مهندس برمجيات أول في Evolvice GmbH**: خدمة مدفوعات، واجهات بنكية، Docker Swarm على GCP
+- 💼 **سابقًا مهندس برمجيات أول في Evolvice GmbH**: خدمة مدفوعات، واجهات بنكية، Docker Swarm على GCP
 - 🧭 **18 شهرًا Tech Lead في REFILEX**: المعمارية، المعايير، مراجعة الكود، والتوجيه
 - 💳 **MyFatoorah · Tabby · STC Bank (OAuth2/mTLS) · Qoyod · PayPal**
 - 🌐 منتجات ثنائية اللغة **عربي / إنجليزي** تدعم RTL لمصر والسعودية والخليج
@@ -99,7 +99,7 @@
 <h2 dir="rtl">🗺️ المسار المهني</h2>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/mario237/mario237/main/assets/career.svg" width="100%" alt="2020 OTG backend developer, 2022 Tod-z software engineer, 2022 Kick Start Interactive, 2023 REFILEX tech lead, 2025 Evolvice GmbH senior software engineer" />
+  <img src="https://raw.githubusercontent.com/mario237/mario237/main/assets/career.svg" width="100%" alt="2020 OTG backend developer, 2022 Tod-z software engineer, 2022 Kick Start Interactive, 2023 REFILEX tech lead, 2025 Evolvice GmbH senior software engineer, 2026 founder and CEO of predev." />
 </p>
 
 <img src="https://raw.githubusercontent.com/mario237/mario237/main/assets/divider.svg" width="100%" />
@@ -180,7 +180,7 @@
 
 <p align="center">
   <a href="https://mariomamdouh.com"><img src="https://img.shields.io/badge/Portfolio-10D59A?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
-  <a href="https://www.linkedin.com/in/mario-mamdouh-6872921b4/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://www.linkedin.com/in/mariomamdouh1/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="mailto:mariomamdouh237@gmail.com"><img src="https://img.shields.io/badge/mariomamdouh237@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
   <a href="https://predevsolutions.com"><img src="https://img.shields.io/badge/predev._Solutions-7F75E8?style=for-the-badge&logo=googlechrome&logoColor=white" alt="predev. Solutions" /></a>
 </p>
