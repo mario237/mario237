@@ -3,22 +3,22 @@
 <p align="right"><b>🇬🇧 English</b> · <a href="README.ar.md">🇪🇬 العربية</a></p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/mario237/mario237/main/assets/header.svg" alt="Mario Mamdouh, Senior Software Engineer and ex-Tech Lead" width="100%" />
+  <img src="https://raw.githubusercontent.com/mario237/mario237/main/assets/header.svg" alt="Mario Mamdouh, Founder and CEO of predev. Solutions, Senior Software Engineer" width="100%" />
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1100&color=10D59A&center=true&vCenter=true&width=680&lines=I+design%2C+build+and+scale+production+systems;Payment+microservices+%C2%B7+Bank+APIs+%C2%B7+BNPL;Laravel+%C2%B7+Yii2+%C2%B7+NestJS+%C2%B7+Next.js+%C2%B7+Flutter;Docker+Swarm+%26+Kubernetes+on+GCP+%2F+AWS;Ex-Tech+Lead%3A+architecture%2C+reviews%2C+mentoring" alt="Typing intro" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1100&color=10D59A&center=true&vCenter=true&width=680&lines=Founder+%26+CEO+of+predev.+Solutions;I+design%2C+build+and+scale+production+systems;Payment+microservices+%C2%B7+Bank+APIs+%C2%B7+BNPL;Laravel+%C2%B7+Yii2+%C2%B7+NestJS+%C2%B7+Next.js+%C2%B7+Flutter;Docker+Swarm+%26+Kubernetes+on+GCP+%2F+AWS;Ex-Tech+Lead%3A+architecture%2C+reviews%2C+mentoring" alt="Typing intro" />
 </p>
 
 <p align="center">
   <a href="https://mariomamdouh.com"><img src="https://img.shields.io/badge/Portfolio-10D59A?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
+  <a href="https://predevsolutions.com"><img src="https://img.shields.io/badge/predev._Solutions-7F75E8?style=for-the-badge&logo=googlechrome&logoColor=white" alt="predev. Solutions" /></a>
   <a href="https://www.linkedin.com/in/mario-mamdouh-6872921b4/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="mailto:mariomamdouh237@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
   <a href="https://wa.me/201063364369"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp" /></a>
-  <img src="https://komarev.com/ghpvc/?username=mario237&style=for-the-badge&color=6366f1&label=PROFILE+VIEWS" alt="Profile views" />
 </p>
 
-<p align="center">🔨 <b>Right now:</b> Senior Software Engineer @ <b>Evolvice GmbH</b>, running payments and platform services for a Gulf SaaS suite</p>
+<p align="center">🏢 <b>Founder &amp; CEO</b> of <a href="https://predevsolutions.com"><b>predev. Solutions</b></a> · 💼 <b>Senior Software Engineer</b> @ Evolvice GmbH</p>
 
 <img src="https://raw.githubusercontent.com/mario237/mario237/main/assets/divider.svg" width="100%" />
 
@@ -28,10 +28,11 @@
 <tr>
 <td width="62%" valign="top">
 
-Senior Software Engineer and former **Tech Lead** with **6+ years** designing, building and scaling production software, from the database and the API to the screens people use and the cloud it runs on.
+**Founder & CEO of [predev. Solutions](https://predevsolutions.com)**, Senior Software Engineer and former **Tech Lead** with **6+ years** designing, building and scaling production software, from the database and the API to the screens people use and the cloud it runs on.
 
 My strongest ground is the work that can't break: **payments, banking and accounting integrations**, multi-tenant SaaS, and services that stay correct under retries, race conditions and 3 a.m. traffic.
 
+- 🏢 **Founder & CEO @ predev. Solutions**: a 14-person Cairo software house, 8+ products live
 - 🔭 **Senior Software Engineer @ Evolvice GmbH**: payment microservice, bank APIs, Swarm on GCP
 - 🧭 **18 months as Tech Lead @ REFILEX**: architecture, standards, code review, mentoring
 - 💳 **MyFatoorah · Tabby BNPL · STC Bank (OAuth2/mTLS) · Qoyod · PayPal**
@@ -68,6 +69,22 @@ My strongest ground is the work that can't break: **payments, banking and accoun
 </td>
 </tr>
 </table>
+
+<img src="https://raw.githubusercontent.com/mario237/mario237/main/assets/divider.svg" width="100%" />
+
+## 🏢 predev. Solutions
+
+I founded and run **predev.**, a Cairo software house that plans, designs and builds mobile apps, web platforms and the brands around them, Arabic-first for Egypt, Saudi Arabia and the Gulf.
+
+<p align="center">
+  <a href="https://predevsolutions.com"><img src="https://raw.githubusercontent.com/mario237/mario237/main/assets/predev.svg" width="100%" alt="predev. Solutions: founder and CEO; 14 full-time specialists, 8+ products live, 10 industries" /></a>
+</p>
+
+<p align="center">
+  <a href="https://predevsolutions.com"><img src="https://img.shields.io/badge/Website-7F75E8?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website" /></a>
+  <a href="https://github.com/predev-solutions"><img src="https://img.shields.io/badge/GitHub_org-181717?style=for-the-badge&logo=github&logoColor=white" alt="predev on GitHub" /></a>
+  <a href="https://www.linkedin.com/company/predevsolutions/"><img src="https://img.shields.io/badge/Company_page-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="predev on LinkedIn" /></a>
+</p>
 
 <img src="https://raw.githubusercontent.com/mario237/mario237/main/assets/divider.svg" width="100%" />
 
@@ -122,7 +139,7 @@ One payment service in front of every app: card payments, BNPL and bank payroll 
 </p>
 <p align="center">
   <a href="https://www.ispeakerlive.com"><img src="https://raw.githubusercontent.com/mario237/mario237/main/assets/projects/ispeaker.svg" width="49%" alt="iSpeaker Live" /></a>
-  <a href="https://mariomamdouh.com"><img src="https://raw.githubusercontent.com/mario237/mario237/main/assets/projects/quick.svg" width="49%" alt="Quick" /></a>
+  <a href="https://predevsolutions.com"><img src="https://raw.githubusercontent.com/mario237/mario237/main/assets/projects/quick.svg" width="49%" alt="Quick App" /></a>
 </p>
 <p align="center">
   <a href="https://tod-z.com/marketplace"><img src="https://raw.githubusercontent.com/mario237/mario237/main/assets/projects/todz.svg" width="49%" alt="tod-Z" /></a>
@@ -165,7 +182,7 @@ One payment service in front of every app: card payments, BNPL and bank payroll 
   <a href="https://mariomamdouh.com"><img src="https://img.shields.io/badge/Portfolio-10D59A?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
   <a href="https://www.linkedin.com/in/mario-mamdouh-6872921b4/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="mailto:mariomamdouh237@gmail.com"><img src="https://img.shields.io/badge/mariomamdouh237@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-  <a href="https://wa.me/201063364369"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp" /></a>
+  <a href="https://predevsolutions.com"><img src="https://img.shields.io/badge/predev._Solutions-7F75E8?style=for-the-badge&logo=googlechrome&logoColor=white" alt="predev. Solutions" /></a>
 </p>
 
-<p align="center"><i>⚡ Always open to hard problems in backend, payments and systems that have to scale.</i></p>
+<p align="center"><i>⚡ Open to hard problems in backend, payments and systems that have to scale, and to new projects for predev.</i></p>

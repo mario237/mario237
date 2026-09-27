@@ -3,22 +3,22 @@
 <p align="right"><a href="README.md">🇬🇧 English</a> · <b>🇪🇬 العربية</b></p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/mario237/mario237/main/assets/header.svg" alt="Mario Mamdouh, Senior Software Engineer and ex-Tech Lead" width="100%" />
+  <img src="https://raw.githubusercontent.com/mario237/mario237/main/assets/header.svg" alt="Mario Mamdouh, Founder and CEO of predev. Solutions, Senior Software Engineer" width="100%" />
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1100&color=10D59A&center=true&vCenter=true&width=680&lines=I+design%2C+build+and+scale+production+systems;Payment+microservices+%C2%B7+Bank+APIs+%C2%B7+BNPL;Laravel+%C2%B7+Yii2+%C2%B7+NestJS+%C2%B7+Next.js+%C2%B7+Flutter;Docker+Swarm+%26+Kubernetes+on+GCP+%2F+AWS;Ex-Tech+Lead%3A+architecture%2C+reviews%2C+mentoring" alt="Typing intro" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1100&color=10D59A&center=true&vCenter=true&width=680&lines=Founder+%26+CEO+of+predev.+Solutions;I+design%2C+build+and+scale+production+systems;Payment+microservices+%C2%B7+Bank+APIs+%C2%B7+BNPL;Laravel+%C2%B7+Yii2+%C2%B7+NestJS+%C2%B7+Next.js+%C2%B7+Flutter;Docker+Swarm+%26+Kubernetes+on+GCP+%2F+AWS;Ex-Tech+Lead%3A+architecture%2C+reviews%2C+mentoring" alt="Typing intro" />
 </p>
 
 <p align="center">
   <a href="https://mariomamdouh.com"><img src="https://img.shields.io/badge/Portfolio-10D59A?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
+  <a href="https://predevsolutions.com"><img src="https://img.shields.io/badge/predev._Solutions-7F75E8?style=for-the-badge&logo=googlechrome&logoColor=white" alt="predev. Solutions" /></a>
   <a href="https://www.linkedin.com/in/mario-mamdouh-6872921b4/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="mailto:mariomamdouh237@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
   <a href="https://wa.me/201063364369"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp" /></a>
-  <img src="https://komarev.com/ghpvc/?username=mario237&style=for-the-badge&color=6366f1&label=PROFILE+VIEWS" alt="Profile views" />
 </p>
 
-<p align="center" dir="rtl">🔨 <b>حاليًا:</b> مهندس برمجيات أول في <b>Evolvice GmbH</b>، مسؤول عن خدمات الدفع والمنصة لمجموعة SaaS في الخليج</p>
+<p align="center" dir="rtl">🏢 <b>المؤسس والرئيس التنفيذي</b> لـ <a href="https://predevsolutions.com"><b>predev. Solutions</b></a> · 💼 <b>مهندس برمجيات أول</b> في Evolvice GmbH</p>
 
 <img src="https://raw.githubusercontent.com/mario237/mario237/main/assets/divider.svg" width="100%" />
 
@@ -28,10 +28,11 @@
 <tr>
 <td width="62%" valign="top" dir="rtl">
 
-مهندس برمجيات أول و**Tech Lead سابق** بخبرة **أكثر من 6 سنوات** في تصميم وبناء وتوسيع أنظمة تعمل في بيئة الإنتاج، من قاعدة البيانات والـ API إلى الشاشات التي يستخدمها الناس والسحابة التي تعمل عليها.
+**المؤسس والرئيس التنفيذي لـ [predev. Solutions](https://predevsolutions.com)**، ومهندس برمجيات أول و**Tech Lead سابق** بخبرة **أكثر من 6 سنوات** في تصميم وبناء وتوسيع أنظمة تعمل في بيئة الإنتاج، من قاعدة البيانات والـ API إلى الشاشات التي يستخدمها الناس والسحابة التي تعمل عليها.
 
 أقوى مجالاتي هي الأنظمة التي لا تحتمل الخطأ: **تكاملات الدفع والبنوك والمحاسبة**، ومنصات SaaS متعددة المستأجرين، وخدمات تبقى صحيحة مع إعادة المحاولات والتزامن وضغط الاستخدام.
 
+- 🏢 **المؤسس والرئيس التنفيذي لـ predev. Solutions**: شركة برمجيات في القاهرة بفريق من 14 متخصصًا وأكثر من 8 منتجات تعمل
 - 🔭 **مهندس برمجيات أول في Evolvice GmbH**: خدمة مدفوعات، واجهات بنكية، Docker Swarm على GCP
 - 🧭 **18 شهرًا Tech Lead في REFILEX**: المعمارية، المعايير، مراجعة الكود، والتوجيه
 - 💳 **MyFatoorah · Tabby · STC Bank (OAuth2/mTLS) · Qoyod · PayPal**
@@ -68,6 +69,22 @@
 </td>
 </tr>
 </table>
+
+<img src="https://raw.githubusercontent.com/mario237/mario237/main/assets/divider.svg" width="100%" />
+
+<h2 dir="rtl">🏢 predev. Solutions</h2>
+
+<p dir="rtl">أسست وأدير <b>predev.</b>، شركة برمجيات في القاهرة تخطط وتصمم وتبني تطبيقات الموبايل والمنصات والهويات التجارية، بالعربي أولًا لمصر والسعودية والخليج.</p>
+
+<p align="center">
+  <a href="https://predevsolutions.com"><img src="https://raw.githubusercontent.com/mario237/mario237/main/assets/predev.svg" width="100%" alt="predev. Solutions: founder and CEO; 14 full-time specialists, 8+ products live, 10 industries" /></a>
+</p>
+
+<p align="center">
+  <a href="https://predevsolutions.com"><img src="https://img.shields.io/badge/Website-7F75E8?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website" /></a>
+  <a href="https://github.com/predev-solutions"><img src="https://img.shields.io/badge/GitHub_org-181717?style=for-the-badge&logo=github&logoColor=white" alt="predev on GitHub" /></a>
+  <a href="https://www.linkedin.com/company/predevsolutions/"><img src="https://img.shields.io/badge/Company_page-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="predev on LinkedIn" /></a>
+</p>
 
 <img src="https://raw.githubusercontent.com/mario237/mario237/main/assets/divider.svg" width="100%" />
 
@@ -122,7 +139,7 @@
 </p>
 <p align="center">
   <a href="https://www.ispeakerlive.com"><img src="https://raw.githubusercontent.com/mario237/mario237/main/assets/projects/ispeaker.svg" width="49%" alt="iSpeaker Live" /></a>
-  <a href="https://mariomamdouh.com"><img src="https://raw.githubusercontent.com/mario237/mario237/main/assets/projects/quick.svg" width="49%" alt="Quick" /></a>
+  <a href="https://predevsolutions.com"><img src="https://raw.githubusercontent.com/mario237/mario237/main/assets/projects/quick.svg" width="49%" alt="Quick App" /></a>
 </p>
 <p align="center">
   <a href="https://tod-z.com/marketplace"><img src="https://raw.githubusercontent.com/mario237/mario237/main/assets/projects/todz.svg" width="49%" alt="tod-Z" /></a>
@@ -165,7 +182,7 @@
   <a href="https://mariomamdouh.com"><img src="https://img.shields.io/badge/Portfolio-10D59A?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
   <a href="https://www.linkedin.com/in/mario-mamdouh-6872921b4/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="mailto:mariomamdouh237@gmail.com"><img src="https://img.shields.io/badge/mariomamdouh237@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-  <a href="https://wa.me/201063364369"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp" /></a>
+  <a href="https://predevsolutions.com"><img src="https://img.shields.io/badge/predev._Solutions-7F75E8?style=for-the-badge&logo=googlechrome&logoColor=white" alt="predev. Solutions" /></a>
 </p>
 
-<p align="center" dir="rtl"><i>⚡ دايمًا متاح للمشاكل الصعبة في الـ backend والمدفوعات والأنظمة اللي لازم تكبر.</i></p>
+<p align="center" dir="rtl"><i>⚡ متاح دائمًا للمشكلات الصعبة في الـ backend والمدفوعات والأنظمة القابلة للتوسع، وللمشاريع الجديدة مع predev.</i></p>

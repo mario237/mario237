@@ -43,8 +43,7 @@
   </g></g>
   <text x="88" y="46" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#f4f7fb">Ynmo Pay</text>
   <text x="88" y="67" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="11.5" fill="#F59E0B" letter-spacing=".4">PAYMENT MICROSERVICE</text>
-  <g transform="translate(366 26)"><rect width="52" height="20" rx="10" fill="#10D59A" fill-opacity=".12" stroke="#10D59A" stroke-opacity=".5"/>
-    <circle class="live" cx="12" cy="10" r="3.5" fill="#10D59A"/><text x="33" y="14" text-anchor="middle" font-family="'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="10" font-weight="700" fill="#10D59A">LIVE</text></g>
+  
   <g font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="14" fill="#a9b3c9"><text x="26" y="112">MyFatoorah cards, Tabby BNPL and STC Bank B2B payroll</text><text x="26" y="134">behind one API, with two-way Qoyod accounting sync.</text></g>
   <g font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#e5e7eb"><rect x="26" y="186" width="103" height="24" rx="12" fill="#F59E0B" fill-opacity=".14" stroke="#F59E0B" stroke-opacity=".45"/><text x="77.5" y="202.5" text-anchor="middle">OAuth2/mTLS</text><rect x="137" y="186" width="81" height="24" rx="12" fill="#F59E0B" fill-opacity=".14" stroke="#F59E0B" stroke-opacity=".45"/><text x="177.5" y="202.5" text-anchor="middle">Webhooks</text><rect x="226" y="186" width="59" height="24" rx="12" fill="#F59E0B" fill-opacity=".14" stroke="#F59E0B" stroke-opacity=".45"/><text x="255.5" y="202.5" text-anchor="middle">Swarm</text><rect x="293" y="186" width="44" height="24" rx="12" fill="#F59E0B" fill-opacity=".14" stroke="#F59E0B" stroke-opacity=".45"/><text x="315.0" y="202.5" text-anchor="middle">GCP</text></g>
 </g></g>

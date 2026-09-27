@@ -11,6 +11,7 @@ ICONS = ROOT / "scripts" / "icons"
 SANS = "'Segoe UI', -apple-system, Helvetica, Arial, sans-serif"
 MONO = "'JetBrains Mono', Consolas, 'Courier New', monospace"
 G, IN = "#10D59A", "#6366F1"  # emerald + indigo, the brand pair
+PV = "#7F75E8"  # predev. brand purple
 e = html.escape
 
 
@@ -108,12 +109,12 @@ def header():
     tl_css = "".join(
         f".t{i} {{ animation: tl{i} {cyc}s steps(1) infinite; }} @keyframes tl{i} {{ 0% {{ opacity: 0; }} {int((i + 1) * 9)}% {{ opacity: 1; }} 94% {{ opacity: 1; }} 100% {{ opacity: 0; }} }}\n"
         for i in range(n))
-    chips = [("💼", "Senior SWE @ Evolvice GmbH", 262, "#fff"), ("📍", "Cairo, Egypt", 150, "#fff"), ("⚡", "6+ yrs in production", 206, G)]
+    chips = [("🏢", "predev. Solutions", 200, PV), ("💼", "Senior SWE @ Evolvice", 222, "#fff"), ("📍", "Cairo, Egypt", 146, "#fff")]
     cx, ch = 72, ""
     for emo, label, w, col in chips:
         hl = col != "#fff"
-        ch += (f'<rect x="{cx}" y="290" width="{w}" height="36" rx="18" fill="{col}" fill-opacity="{.16 if hl else .06}" stroke="{col}" stroke-opacity="{.6 if hl else .12}"/>'
-               f'<text x="{cx + w / 2}" y="313" text-anchor="middle" fill="{"#d7fbe9" if hl else "#aab3c8"}">{emo}  {e(label)}</text>')
+        ch += (f'<rect x="{cx}" y="290" width="{w}" height="36" rx="18" fill="{col}" fill-opacity="{.2 if hl else .06}" stroke="{col}" stroke-opacity="{.7 if hl else .12}"/>'
+               f'<text x="{cx + w / 2}" y="313" text-anchor="middle" fill="{"#e6e3ff" if hl else "#aab3c8"}" font-weight="{600 if hl else 400}">{emo}  {e(label)}</text>')
         cx += w + 12
     body = f"""
   <circle class="orb" cx="1000" cy="90" r="160" fill="{IN}" opacity=".5" filter="url(#blur)"/>
@@ -133,7 +134,7 @@ def header():
   <text class="up" style="animation-delay:.15s" x="72" y="104" font-family="{MONO}" font-size="18" fill="{G}">// hello world, I'm</text>
   <text class="up" style="animation-delay:.4s" x="68" y="178" font-family="{SANS}" font-size="68" font-weight="800" fill="#f4f7fb" letter-spacing="-1.5">Mario Mamdouh</text>
   <rect class="bar" x="72" y="198" width="200" height="6" rx="3" fill="url(#ac)"/>
-  <text class="up" style="animation-delay:.7s" x="72" y="250" font-family="{SANS}" font-size="27" font-weight="600" fill="#d7dcf0">Senior Software Engineer <tspan fill="#6b7280">·</tspan> <tspan fill="{G}">ex-Tech Lead</tspan></text>
+  <text class="up" style="animation-delay:.7s" x="72" y="250" font-family="{SANS}" font-size="27" font-weight="600" fill="#d7dcf0"><tspan fill="#A9A3FF">Founder &amp; CEO</tspan> <tspan fill="#6b7280">·</tspan> Senior Software Engineer</text>
   <g class="up" style="animation-delay:1s" font-family="{SANS}" font-size="15.5">{ch}</g>
 """
     svg = f"""<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}">
@@ -163,7 +164,7 @@ def header():
 
 # ---------------- impact numbers ----------------
 IMPACT = [
-    ("⏳", "6+", "years shipping", "production software", G),
+    ("⏳", "6+", "years shipping", "production software, end to end", G),
     ("🧭", "18", "months as Tech Lead", "architecture · reviews · mentoring", IN),
     ("🚀", "12+", "products shipped", "SaaS · marketplaces · fintech", "#F59E0B"),
     ("👥", "2M+", "monthly visitors", "on platforms I built for", "#22D3EE"),
@@ -199,6 +200,7 @@ def about():
     rows = [
         [(K, "final class "), (Y, "Mario "), (K, "extends "), (Y, "Engineer"), (T, " {")],
         [(T, "")],
+        [(K, "    public "), (P, "$founder"), (T, "  = "), (S, "'predev. Solutions'"), (T, "; "), (C, "// CEO")],
         [(K, "    public "), (P, "$role"), (T, "     = "), (S, "'Senior Software Engineer'"), (T, ";")],
         [(K, "    public "), (P, "$company"), (T, "  = "), (S, "'Evolvice GmbH'"), (T, ";")],
         [(K, "    public "), (P, "$previous"), (T, " = "), (S, "'Tech Lead @ REFILEX'"), (T, ";")],
@@ -400,7 +402,7 @@ PROJECTS = [
     ("ispeaker", "🎙️", "iSpeaker Live", "Social e-learning · end to end", IN,
      "Feeds, courses, self-hosted Jitsi live rooms, consultations, a PayPal wallet, RTL invoices and a Flutter app.",
      ["Laravel", "Next.js", "Flutter", "Jitsi"]),
-    ("quick", "🛵", "Quick", "Delivery super-app · end to end", "#F43F5E",
+    ("quick", "🛵", "Quick App", "Delivery super-app · predev.", "#F43F5E",
      "One cart across five verticals, a seven-state live order tracker and push for customers, shops and drivers.",
      ["Laravel", "Flutter", "Realtime", "Push"]),
     ("todz", "🤝", "tod-Z", "Freelance marketplace", "#EC4899",
@@ -418,7 +420,7 @@ PROJECTS = [
 ]
 
 
-NOT_LIVE = {"quick"}  # not public yet
+NOT_LIVE = {"ynmopay"}  # internal service, no public page
 
 
 def projects():
@@ -556,6 +558,49 @@ def tech():
     write("tech-stack.svg", frame(W, H, "".join(out)))
 
 
+# ---------------- predev. ----------------
+PREDEV_LIVE = ["Rakeez", "Quick App", "iSpeaker", "Arabook", "Sofqaat", "Boutros Afandy", "NileMed", "BioTechnology Egypt"]
+
+
+def predev():
+    W, H = 920, 318
+    stats = [("👥", "14", "full-time specialists"), ("🚢", "8+", "products live"), ("🏭", "10", "industries served")]
+    out = [f"""<g class="up">
+  <text x="36" y="62" font-family="{SANS}" font-size="46" font-weight="800" fill="#f4f7fb" letter-spacing="-1">predev<tspan fill="{PV}">.</tspan></text>
+  <text x="36" y="92" font-family="{MONO}" font-size="13" fill="{PV}" letter-spacing="1.5">SOLUTIONS · CAIRO SOFTWARE HOUSE</text>
+  <rect x="36" y="110" width="178" height="30" rx="15" fill="{PV}" fill-opacity=".2" stroke="{PV}" stroke-opacity=".7"/>
+  <text x="125" y="130" text-anchor="middle" font-family="{SANS}" font-size="13.5" font-weight="700" fill="#e6e3ff">Founder &amp; CEO</text>
+  <g font-family="{SANS}" font-size="14" fill="#a9b3c9">
+    <text x="36" y="172">Strategy, design and engineering under one roof:</text>
+    <text x="36" y="194">mobile apps, web platforms and the brands that</text>
+    <text x="36" y="216">sell them, Arabic-first for Egypt and the Gulf.</text>
+  </g>
+</g>"""]
+    for i, (emo, num, label) in enumerate(stats):
+        x, y = 470, 28 + i * 64
+        out.append(f"""<g transform="translate({x} {y})"><g class="fl" style="animation-delay:{-i * .4:.1f}s">
+  {tile3d(414, 50, PV, 12, 5)}
+  <text x="18" y="33" font-size="20">{emo}</text>
+  <text x="56" y="35" font-family="{SANS}" font-size="24" font-weight="800" fill="#f4f7fb">{num}</text>
+  <text x="{56 + len(num) * 16 + 12}" y="33" font-family="{SANS}" font-size="14.5" fill="#c9c5ff">{label}</text>
+</g></g>""")
+    # ticker of live products
+    chips, x = "", 0
+    for name in PREDEV_LIVE * 2:
+        w = int(len(name) * 8 + 44)
+        chips += (f'<rect x="{x}" width="{w}" height="30" rx="15" fill="#fff" fill-opacity=".05" stroke="{PV}" stroke-opacity=".45"/>'
+                  f'<circle class="live" cx="{x + 16}" cy="15" r="4" fill="{G}"/><text x="{x + 28}" y="20" font-family="{SANS}" font-size="13" font-weight="600" fill="#e5e7eb">{e(name)}</text>')
+        x += w + 10
+    half = x / 2
+    out.append(f"""<text x="36" y="{H - 52}" font-family="{MONO}" font-size="11.5" fill="#8b95ab" letter-spacing="1">LIVE IN PRODUCTION</text>
+<svg x="200" y="{H - 72}" width="{W - 236}" height="34"><g class="tk">{chips}</g></svg>""")
+    write("predev.svg", frame(W, H, "".join(out), f"""
+  .tk {{ animation: tk 26s linear infinite; }} @keyframes tk {{ to {{ transform: translateX(-{half:.0f}px); }} }}
+  .live {{ animation: lv 1.6s ease-in-out infinite; }} @keyframes lv {{ 50% {{ opacity: .25; }} }}""",
+        f'<radialGradient id="pv"><stop offset="0" stop-color="{PV}" stop-opacity=".5"/><stop offset="1" stop-color="{PV}" stop-opacity="0"/></radialGradient>').replace(
+        'fill="url(#o2)"', 'fill="url(#pv)"', 1))
+
+
 # ---------------- divider + footer ----------------
 def divider():
     write("divider.svg", f'''<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="6" viewBox="0 0 1200 6">
@@ -578,6 +623,6 @@ def footer():
 
 
 if __name__ == "__main__":
-    for f in (header, impact, about, services, career, architecture, projects, tech, divider, footer):
+    for f in (header, predev, impact, about, services, career, architecture, projects, tech, divider, footer):
         f()
     print("assets built:", sorted(p.name for p in A.rglob("*.svg")))
