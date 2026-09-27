@@ -33,7 +33,7 @@ STYLE = """
   .glow { animation: glow 6s ease-in-out infinite; }
   @keyframes glow { 0%,100% { opacity: .35; } 50% { opacity: .6; } }
   .up { animation: up .8s cubic-bezier(.2,.7,.2,1) backwards; }
-  @keyframes up { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
+  @keyframes up { from { transform: translateY(14px); } to { transform: none; } }  /* no opacity: frame 0 must be readable */
 """
 
 DEFS = f"""
@@ -105,9 +105,9 @@ def header():
     rows = "".join(
         f'<text x="24" y="{76 + i * 25}" class="tl t{i}"><tspan fill="{c1}">{e(p)}</tspan><tspan fill="{c2}">{e(t)}</tspan></text>'
         for i, (c1, p, c2, t) in enumerate(term))
-    cyc = 9
+    cyc = 12  # lines show from frame 0, blank briefly, then retype one by one
     tl_css = "".join(
-        f".t{i} {{ animation: tl{i} {cyc}s steps(1) infinite; }} @keyframes tl{i} {{ 0% {{ opacity: 0; }} {int((i + 1) * 9)}% {{ opacity: 1; }} 94% {{ opacity: 1; }} 100% {{ opacity: 0; }} }}\n"
+        f".t{i} {{ animation: tl{i} {cyc}s steps(1) infinite; }} @keyframes tl{i} {{ 0%,72% {{ opacity: 1; }} 74% {{ opacity: 0; }} {76 + i * 4}%,100% {{ opacity: 1; }} }}\n"
         for i in range(n))
     chips = [("🏢", "predev. Solutions", 200, PV), ("⚡", "6+ yrs in production", 206, "#fff"), ("📍", "Cairo, Egypt", 146, "#fff")]
     cx, ch = 72, ""
@@ -122,14 +122,14 @@ def header():
   <circle class="orb o3" cx="720" cy="360" r="100" fill="#22D3EE" opacity=".18" filter="url(#blur)"/>
   <rect class="shine" x="0" y="0" width="300" height="{H}" fill="url(#shg)" transform="skewX(-20)"/>
 
-  <g transform="translate(770 62)" class="up" style="animation-delay:1s">
+  <g transform="translate(770 62)"><g class="up" style="animation-delay:1s">
     <rect width="370" height="236" rx="14" fill="#0b1117" fill-opacity=".88" stroke="#fff" stroke-opacity=".1"/>
     <path d="M.5 14.5a14 14 0 0 1 14-14h341a14 14 0 0 1 14 14V40H.5z" fill="#121a22"/>
     <circle cx="22" cy="20" r="6" fill="#ff5f57"/><circle cx="42" cy="20" r="6" fill="#febc2e"/><circle cx="62" cy="20" r="6" fill="#28c840"/>
     <text x="350" y="25" text-anchor="end" font-family="{MONO}" font-size="12" fill="#6b7280">~/ynmo-pay — deploy</text>
     <g font-family="{MONO}" font-size="13.5" xml:space="preserve">{rows}</g>
     <rect class="cur" x="24" y="{76 + n * 25 - 14}" width="9" height="17" fill="{G}"/>
-  </g>
+  </g></g>
 
   <text class="up" style="animation-delay:.15s" x="72" y="104" font-family="{MONO}" font-size="18" fill="{G}">// hello world, I'm</text>
   <text class="up" style="animation-delay:.4s" x="68" y="178" font-family="{SANS}" font-size="68" font-weight="800" fill="#f4f7fb" letter-spacing="-1.5">Mario Mamdouh</text>
@@ -143,7 +143,7 @@ def header():
   .o2 {{ animation-duration: 12s; animation-delay: -4s; }} .o3 {{ animation-duration: 15s; animation-delay: -7s; }}
   @keyframes orb {{ 0%,100% {{ transform: translate(0,0) scale(1); }} 50% {{ transform: translate(-30px,18px) scale(1.12); }} }}
   .bar {{ animation: grow 1.2s .6s cubic-bezier(.2,.7,.2,1) both; transform-origin: left; transform-box: fill-box; }}
-  @keyframes grow {{ from {{ transform: scaleX(0); }} to {{ transform: scaleX(1); }} }}
+  @keyframes grow {{ from {{ transform: scaleX(.15); }} to {{ transform: scaleX(1); }} }}
   .cur {{ animation: blink 1s steps(1) infinite; }} @keyframes blink {{ 50% {{ opacity: 0; }} }}
   .shine {{ animation: shine 7s linear infinite; }} @keyframes shine {{ from {{ transform: translateX(-400px); }} to {{ transform: translateX(1700px); }} }}
   {tl_css}
@@ -190,7 +190,7 @@ def impact():
 </g></g>""")
     write("impact.svg", frame(W, H, "".join(out), """
   .pop { animation: pop .9s cubic-bezier(.2,1.6,.4,1) backwards; transform-box: fill-box; transform-origin: left center; }
-  @keyframes pop { from { opacity: 0; transform: scale(.4); } to { opacity: 1; transform: none; } }"""))
+  @keyframes pop { from { transform: scale(.7); } to { transform: none; } }"""))
 
 
 # ---------------- about code card ----------------
@@ -221,7 +221,7 @@ def about():
         body += f'<text x="16" y="{72 + i * 22}" xml:space="preserve" class="l" style="animation-delay:{.12 * i:.2f}s"><tspan fill="#3f4a56">{i + 1:>2}  </tspan>{ts}</text>'
     aw, ah = 560, 72 + len(rows) * 22 + 12
     write("about.svg", f'''<svg xmlns="http://www.w3.org/2000/svg" width="{aw}" height="{ah}" viewBox="0 0 {aw} {ah}">
-<style>.l{{animation:in .5s ease backwards}}@keyframes in{{from{{opacity:0;transform:translateX(-8px)}}to{{opacity:1;transform:none}}}}
+<style>.l{{animation:in .5s ease backwards}}@keyframes in{{from{{transform:translateX(-8px)}}to{{transform:none}}}}
 .cur{{animation:b 1s steps(1) infinite}}@keyframes b{{50%{{opacity:0}}}}</style>
 <rect x=".5" y=".5" width="{aw - 1}" height="{ah - 1}" rx="14" fill="#0b1117" stroke="#fff" stroke-opacity=".12"/>
 <path d="M.5 14.5a14 14 0 0 1 14-14h{aw - 29}a14 14 0 0 1 14 14V40H.5z" fill="#121a22"/>

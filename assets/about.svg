@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="560" height="436" viewBox="0 0 560 436">
-<style>.l{animation:in .5s ease backwards}@keyframes in{from{opacity:0;transform:translateX(-8px)}to{opacity:1;transform:none}}
+<style>.l{animation:in .5s ease backwards}@keyframes in{from{transform:translateX(-8px)}to{transform:none}}
 .cur{animation:b 1s steps(1) infinite}@keyframes b{50%{opacity:0}}</style>
 <rect x=".5" y=".5" width="559" height="435" rx="14" fill="#0b1117" stroke="#fff" stroke-opacity=".12"/>
 <path d="M.5 14.5a14 14 0 0 1 14-14h531a14 14 0 0 1 14 14V40H.5z" fill="#121a22"/>
