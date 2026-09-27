@@ -1,0 +1,153 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="920" height="414" viewBox="0 0 920 414">
+<style>
+  .fl { animation: fl 4s ease-in-out infinite; }
+  @keyframes fl { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-7px); } }
+  .sh { animation: sh 4s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+  @keyframes sh { 0%,100% { transform: scaleX(1); opacity: .45; } 50% { transform: scaleX(.8); opacity: .2; } }
+  .fp { animation: fp 9s cubic-bezier(.45,0,.2,1) infinite; transform-box: fill-box; transform-origin: center; }
+  @keyframes fp { 0%,78% { transform: scaleX(1) skewY(0); } 83% { transform: scaleX(.02) skewY(-12deg); } 88% { transform: scaleX(-1) skewY(0); }
+                  93% { transform: scaleX(.02) skewY(12deg); } 98%,100% { transform: scaleX(1) skewY(0); } }
+  .glow { animation: glow 6s ease-in-out infinite; }
+  @keyframes glow { 0%,100% { opacity: .35; } 50% { opacity: .6; } }
+  .up { animation: up .8s cubic-bezier(.2,.7,.2,1) backwards; }
+  @keyframes up { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
+</style>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#070d14"/><stop offset=".55" stop-color="#0a1a1c"/><stop offset="1" stop-color="#0f1030"/></linearGradient>
+  <linearGradient id="face" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#14202a"/><stop offset="1" stop-color="#0d141c"/></linearGradient>
+  <linearGradient id="gloss" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".2"/><stop offset=".45" stop-color="#fff" stop-opacity=".03"/><stop offset=".5" stop-color="#fff" stop-opacity="0"/></linearGradient>
+  <linearGradient id="ac" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#10D59A"/><stop offset="1" stop-color="#6366F1"/></linearGradient>
+  <radialGradient id="o1"><stop offset="0" stop-color="#10D59A" stop-opacity=".45"/><stop offset="1" stop-color="#10D59A" stop-opacity="0"/></radialGradient>
+  <radialGradient id="o2"><stop offset="0" stop-color="#6366F1" stop-opacity=".45"/><stop offset="1" stop-color="#6366F1" stop-opacity="0"/></radialGradient>
+  <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.1" fill="#fff" fill-opacity=".06"/></pattern>
+  <filter id="bl" x="-20%" y="-200%" width="140%" height="500%"><feGaussianBlur stdDeviation="4"/></filter>
+<clipPath id="c"><rect width="920" height="414" rx="20"/></clipPath></defs>
+<g clip-path="url(#c)">
+  <rect width="920" height="414" fill="url(#bg)"/>
+  <rect width="920" height="414" fill="url(#dots)"/>
+  <circle class="glow" cx="860" cy="50" r="280" fill="url(#o2)"/>
+  <circle class="glow" style="animation-delay:-3s" cx="70" cy="384" r="240" fill="url(#o1)"/>
+  <g transform="translate(25 28)">
+  <ellipse class="sh" style="animation-delay:-0.00s" cx="136.0" cy="172" rx="110.0" ry="5" fill="#F59E0B" filter="url(#bl)"/>
+  <g class="fl" style="animation-delay:-0.00s">
+    <rect y="7" width="272" height="156" rx="16" fill="#563703"/>
+    <rect y="3.5" width="272" height="156" rx="16" fill="#7a4f05"/>
+    <rect width="272" height="156" rx="16" fill="url(#face)"/>
+    <rect width="272" height="156" rx="16" fill="#F59E0B" fill-opacity=".06"/>
+    <rect x=".5" y=".5" width="271" height="155" rx="15.5" fill="none" stroke="#F59E0B" stroke-opacity=".38"/>
+    <g transform="translate(22 18)"><g class="fp" style="animation-delay:0.00s">
+    <rect y="5.3" width="44" height="44" rx="11.0" fill="#623f04"/>
+    <rect y="2.6" width="44" height="44" rx="11.0" fill="#9f6606"/>
+    <rect width="44" height="44" rx="11.0" fill="#1a2430"/>
+    <rect width="44" height="44" rx="11.0" fill="#F59E0B" fill-opacity=".18"/>
+    <text x="22.0" y="29.9" text-anchor="middle" font-size="21">💳</text>
+    <rect width="44" height="44" rx="11.0" fill="url(#gloss)"/>
+    <rect x=".5" y=".5" width="43" height="43" rx="10.5" fill="none" stroke="#F59E0B" stroke-opacity=".6"/>
+  </g></g>
+    <text x="80" y="47" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#f4f7fb">Payments &amp; Fintech</text>
+    <g font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="13" fill="#a9b3c9"><text x="22" y="96">Card gateways, BNPL, bank APIs over</text><text x="22" y="115">OAuth2/mTLS, secure webhooks and</text><text x="22" y="134">end-to-end reconciliation.</text></g>
+  </g>
+</g><g transform="translate(319 28)">
+  <ellipse class="sh" style="animation-delay:-0.35s" cx="136.0" cy="172" rx="110.0" ry="5" fill="#6366F1" filter="url(#bl)"/>
+  <g class="fl" style="animation-delay:-0.35s">
+    <rect y="7" width="272" height="156" rx="16" fill="#090b6d"/>
+    <rect y="3.5" width="272" height="156" rx="16" fill="#0e109b"/>
+    <rect width="272" height="156" rx="16" fill="url(#face)"/>
+    <rect width="272" height="156" rx="16" fill="#6366F1" fill-opacity=".06"/>
+    <rect x=".5" y=".5" width="271" height="155" rx="15.5" fill="none" stroke="#6366F1" stroke-opacity=".38"/>
+    <g transform="translate(22 18)"><g class="fp" style="animation-delay:0.80s">
+    <rect y="5.3" width="44" height="44" rx="11.0" fill="#0b0d7c"/>
+    <rect y="2.6" width="44" height="44" rx="11.0" fill="#1216ca"/>
+    <rect width="44" height="44" rx="11.0" fill="#1a2430"/>
+    <rect width="44" height="44" rx="11.0" fill="#6366F1" fill-opacity=".18"/>
+    <text x="22.0" y="29.9" text-anchor="middle" font-size="21">🧱</text>
+    <rect width="44" height="44" rx="11.0" fill="url(#gloss)"/>
+    <rect x=".5" y=".5" width="43" height="43" rx="10.5" fill="none" stroke="#6366F1" stroke-opacity=".6"/>
+  </g></g>
+    <text x="80" y="47" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#f4f7fb">System Design</text>
+    <g font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="13" fill="#a9b3c9"><text x="22" y="96">Microservices, multi-tenant SaaS and</text><text x="22" y="115">event-driven flows, designed to be</text><text x="22" y="134">boring to operate.</text></g>
+  </g>
+</g><g transform="translate(613 28)">
+  <ellipse class="sh" style="animation-delay:-0.70s" cx="136.0" cy="172" rx="110.0" ry="5" fill="#FF2D20" filter="url(#bl)"/>
+  <g class="fl" style="animation-delay:-0.70s">
+    <rect y="7" width="272" height="156" rx="16" fill="#640500"/>
+    <rect y="3.5" width="272" height="156" rx="16" fill="#8f0800"/>
+    <rect width="272" height="156" rx="16" fill="url(#face)"/>
+    <rect width="272" height="156" rx="16" fill="#FF2D20" fill-opacity=".06"/>
+    <rect x=".5" y=".5" width="271" height="155" rx="15.5" fill="none" stroke="#FF2D20" stroke-opacity=".38"/>
+    <g transform="translate(22 18)"><g class="fp" style="animation-delay:1.60s">
+    <rect y="5.3" width="44" height="44" rx="11.0" fill="#720600"/>
+    <rect y="2.6" width="44" height="44" rx="11.0" fill="#ba0a00"/>
+    <rect width="44" height="44" rx="11.0" fill="#1a2430"/>
+    <rect width="44" height="44" rx="11.0" fill="#FF2D20" fill-opacity=".18"/>
+    <text x="22.0" y="29.9" text-anchor="middle" font-size="21">🔌</text>
+    <rect width="44" height="44" rx="11.0" fill="url(#gloss)"/>
+    <rect x=".5" y=".5" width="43" height="43" rx="10.5" fill="none" stroke="#FF2D20" stroke-opacity=".6"/>
+  </g></g>
+    <text x="80" y="47" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#f4f7fb">APIs &amp; Backends</text>
+    <g font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="13" fill="#a9b3c9"><text x="22" y="96">Laravel, Yii2 and NestJS services</text><text x="22" y="115">with queues, caching, locks and</text><text x="22" y="134">race-condition-safe writes.</text></g>
+  </g>
+</g><g transform="translate(25 218)">
+  <ellipse class="sh" style="animation-delay:-0.50s" cx="136.0" cy="172" rx="110.0" ry="5" fill="#22D3EE" filter="url(#bl)"/>
+  <g class="fl" style="animation-delay:-0.50s">
+    <rect y="7" width="272" height="156" rx="16" fill="#064d58"/>
+    <rect y="3.5" width="272" height="156" rx="16" fill="#096e7e"/>
+    <rect width="272" height="156" rx="16" fill="url(#face)"/>
+    <rect width="272" height="156" rx="16" fill="#22D3EE" fill-opacity=".06"/>
+    <rect x=".5" y=".5" width="271" height="155" rx="15.5" fill="none" stroke="#22D3EE" stroke-opacity=".38"/>
+    <g transform="translate(22 18)"><g class="fp" style="animation-delay:2.40s">
+    <rect y="5.3" width="44" height="44" rx="11.0" fill="#075865"/>
+    <rect y="2.6" width="44" height="44" rx="11.0" fill="#0c90a4"/>
+    <rect width="44" height="44" rx="11.0" fill="#1a2430"/>
+    <rect width="44" height="44" rx="11.0" fill="#22D3EE" fill-opacity=".18"/>
+    <text x="22.0" y="29.9" text-anchor="middle" font-size="21">☁️</text>
+    <rect width="44" height="44" rx="11.0" fill="url(#gloss)"/>
+    <rect x=".5" y=".5" width="43" height="43" rx="10.5" fill="none" stroke="#22D3EE" stroke-opacity=".6"/>
+  </g></g>
+    <text x="80" y="47" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#f4f7fb">Cloud &amp; DevOps</text>
+    <g font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="13" fill="#a9b3c9"><text x="22" y="96">Docker Swarm and Kubernetes on</text><text x="22" y="115">GCP/AWS, CI/CD pipelines, alerting</text><text x="22" y="134">and zero-downtime deploys.</text></g>
+  </g>
+</g><g transform="translate(319 218)">
+  <ellipse class="sh" style="animation-delay:-0.85s" cx="136.0" cy="172" rx="110.0" ry="5" fill="#10D59A" filter="url(#bl)"/>
+  <g class="fl" style="animation-delay:-0.85s">
+    <rect y="7" width="272" height="156" rx="16" fill="#054a35"/>
+    <rect y="3.5" width="272" height="156" rx="16" fill="#086a4d"/>
+    <rect width="272" height="156" rx="16" fill="url(#face)"/>
+    <rect width="272" height="156" rx="16" fill="#10D59A" fill-opacity=".06"/>
+    <rect x=".5" y=".5" width="271" height="155" rx="15.5" fill="none" stroke="#10D59A" stroke-opacity=".38"/>
+    <g transform="translate(22 18)"><g class="fp" style="animation-delay:3.20s">
+    <rect y="5.3" width="44" height="44" rx="11.0" fill="#06553d"/>
+    <rect y="2.6" width="44" height="44" rx="11.0" fill="#0a8a64"/>
+    <rect width="44" height="44" rx="11.0" fill="#1a2430"/>
+    <rect width="44" height="44" rx="11.0" fill="#10D59A" fill-opacity=".18"/>
+    <text x="22.0" y="29.9" text-anchor="middle" font-size="21">🖥️</text>
+    <rect width="44" height="44" rx="11.0" fill="url(#gloss)"/>
+    <rect x=".5" y=".5" width="43" height="43" rx="10.5" fill="none" stroke="#10D59A" stroke-opacity=".6"/>
+  </g></g>
+    <text x="80" y="47" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#f4f7fb">Full-Stack &amp; Mobile</text>
+    <g font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="13" fill="#a9b3c9"><text x="22" y="96">Next.js, React, Vue and Angular</text><text x="22" y="115">front-ends, plus Flutter apps, all</text><text x="22" y="134">bilingual AR/EN and RTL-first.</text></g>
+  </g>
+</g><g transform="translate(613 218)">
+  <ellipse class="sh" style="animation-delay:-1.20s" cx="136.0" cy="172" rx="110.0" ry="5" fill="#EC4899" filter="url(#bl)"/>
+  <g class="fl" style="animation-delay:-1.20s">
+    <rect y="7" width="272" height="156" rx="16" fill="#610a35"/>
+    <rect y="3.5" width="272" height="156" rx="16" fill="#8b0e4c"/>
+    <rect width="272" height="156" rx="16" fill="url(#face)"/>
+    <rect width="272" height="156" rx="16" fill="#EC4899" fill-opacity=".06"/>
+    <rect x=".5" y=".5" width="271" height="155" rx="15.5" fill="none" stroke="#EC4899" stroke-opacity=".38"/>
+    <g transform="translate(22 18)"><g class="fp" style="animation-delay:4.00s">
+    <rect y="5.3" width="44" height="44" rx="11.0" fill="#6f0b3c"/>
+    <rect y="2.6" width="44" height="44" rx="11.0" fill="#b51263"/>
+    <rect width="44" height="44" rx="11.0" fill="#1a2430"/>
+    <rect width="44" height="44" rx="11.0" fill="#EC4899" fill-opacity=".18"/>
+    <text x="22.0" y="29.9" text-anchor="middle" font-size="21">🧑‍🏫</text>
+    <rect width="44" height="44" rx="11.0" fill="url(#gloss)"/>
+    <rect x=".5" y=".5" width="43" height="43" rx="10.5" fill="none" stroke="#EC4899" stroke-opacity=".6"/>
+  </g></g>
+    <text x="80" y="47" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#f4f7fb">Technical Leadership</text>
+    <g font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="13" fill="#a9b3c9"><text x="22" y="96">Architecture decisions, code review,</text><text x="22" y="115">mentoring and turning business goals</text><text x="22" y="134">into shippable scope.</text></g>
+  </g>
+</g>
+</g>
+<rect x=".5" y=".5" width="919" height="413" rx="19.5" fill="none" stroke="#fff" stroke-opacity=".1"/>
+</svg>
